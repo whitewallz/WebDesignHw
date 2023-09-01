@@ -17,3 +17,11 @@ and
 you can even try adding an image
 
 ![image with relative url](./imageExample.gif)
+
+
+| TRY |  A   | TABLE  |
+| --- | :----: | -----: |
+| or | `something` | new|
+|practice| and | learn|
+
+
