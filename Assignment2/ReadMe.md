@@ -1,6 +1,6 @@
-# Assignment 3
+# Assignment 2
 
-This is the repository for **Assignment 3**
+This is the repository for **Assignment 2**
 
 Feel free to use this as an example to practice *markdown* 
 
