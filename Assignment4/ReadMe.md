@@ -7,4 +7,4 @@ Here is my live url as an example:
 
 here is an example of the html in my text editor
 
-![example](example.png)
+![example](./images/example.png)
