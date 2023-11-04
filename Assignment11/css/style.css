@@ -1,0 +1,52 @@
+div{
+    text-align: left;
+    font-family: RobotoMono;
+    font-style: normal;
+    margin: 10px;
+}
+
+.title{
+    font-family: PixelifySans;
+    font-size: 80px;
+    text-shadow: -6px 2px 0 #000;
+    color:aliceblue;
+    background-color:#a9a9a9;
+    height: 100px;
+    text-align: center;
+}
+
+#neuromirror{
+    font-family: RobotoMono;
+    font-weight: 900;
+}
+
+
+#neuromirror:hover:after {
+
+    content: "a distinctive class of neurons that discharge both when an individual executes a motor act and when he observes another individual performing the same or a similar motor act.";
+    font-weight: 400;
+    color: red;
+    font-style: italic;
+}
+
+#uncanny {
+  font-weight: 800;
+
+}
+
+#uncanny:hover {
+    background: url("../images/unCannyValley.png");
+    float: right;
+    display: block;
+    width: 500px;
+    height: 400px;
+}
+
+#uppercase {
+    text-transform: uppercase;
+}
+
+img{
+    padding: 20px 20px;
+}
+
