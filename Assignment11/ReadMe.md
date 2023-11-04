@@ -1,3 +1,3 @@
-##This is my Assignment 11
+This is my Assignment 11
 
-check out my sweet font selection
+Ceck out my sweet font selection
