@@ -2,7 +2,7 @@ div
 {
     text-align: center;
     line-height: 3px;
-    font-family: 'Heathergreen', 'normal';
+    font-family: 'AntipastoPro_trial';
     margin-bottom: 10px;
     padding: 5px;
 }
@@ -11,7 +11,7 @@ div
 {
     align-items: center;
     margin: auto;
-    width: 50%;
+    width: 30%;
     min-width: 200;
     max-width: 300;
     height: 150 px;
@@ -22,7 +22,7 @@ div
 
 body
 {
-font-family: 'AntipastoPro_traial' ;
+font-family: 'AntipastoPro_trial';
 font-size: 10px;
 background-color:aliceblue ;
 }
@@ -30,7 +30,7 @@ background-color:aliceblue ;
 h1, h2, h3
 {
 text-align: center;
-font-family: 'AntipastoPro_trail';
+font-family: 'AntipastoPro_trial';
 }
 
 .opening-paragraph
@@ -43,9 +43,8 @@ font-family: 'AntipastoPro_trail';
 
 .image
 {
-    float: inline;
-    float: left;
-    position: center;
+    text-align: center;
+    margin: auto;
 }
 
 .text-box
