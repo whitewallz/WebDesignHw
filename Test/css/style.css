@@ -1,63 +1,134 @@
 body {
-    font-family: 'Teko';
-    font-style: normal;
-    margin: 0;
-    padding: 0;
+    font-family: 'KdamproRegular';
+    font-size: large;
+    background-image: linear-gradient(rgb(0, 34, 68), rgb(105, 190, 40));
 }
-
-header {
-    background-color: #333;
-    padding: 10px;
-}
-
-.navbar {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-.navbar li {
-    float: left;
-}
-
-.navbar a, .navbar a:visited {
-    display: block;
-    color: white;
+div {
     text-align: center;
-    padding: 14px 16px;
+    font-family: 'KdamproRegular' ;
+    font-style: normal;
+    margin: 12px;
+}
+header {
+    position: fixed;
+    background-color: rgb(0, 34, 68);
+    font-family: 'Seahawk text2';
+    font-style: medium;
+    color: rgb(105, 190, 40);
+    font-variant: normal;
+    text-align: center;
+    margin: 0;
+    height: auto;
+    width: 100%;
+}
+.menu{
+    display: inline-block;
+    margin: auto;
+    min-width: 12em;
+    text-align: center;
+    background-color: rgb(0, 34, 68);
+    padding: 0.21em 0;
+}
+.menu a {
+    color: rgb(105, 190, 40);
     text-decoration: none;
 }
-
-.navbar a:hover {
-    background-color: #ddd;
-    color: black;
+.menu:hover {
+    background-color: rgb(0, 48, 135);
 }
-
-.navbar ul {
+.dropdown {
+    display: inline-block;
+    margin: 0 0;
+    min-width: 8em;
+    text-align: center;
+    background-color: rgb(0, 34, 68);
+    padding: 0.5em 0;
+}
+.dropdown a {
+    color: rgb(105, 190, 40);
+    text-decoration: none;
+}
+.dropdown-content {
     display: none;
     position: absolute;
-    background-color: #333;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    border: 1px solid rgb(0, 34, 68);
+    margin: 0;
+    margin-top: 0.5em;
+    color: rgb(0, 34, 68);
+    background-color: rgb(105, 190, 40);
     z-index: 1;
 }
-
-.navbar ul li {
-    float: none;
+.dropdown-content a {
+    color: rgb(0, 34, 68);
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-info {
     display: block;
     text-align: left;
+    margin: 0;
+    padding: 0.5em;
+    min-width: 7em;
 }
-
-.navbar ul a {
-    padding: 12px 16px;
-    color: white;
+.dropdown-info:hover, .dropdown-info:hover a {
+    color: rgb(105, 190, 40);
+    background-color: rgb(0, 34, 68);
 }
-
-.navbar ul a:hover {
-    background-color: #ddd;
-    color: black;
+h1 {
+    font-family: 'Seahawk text1';
+    font-size: 100px;
+    font-style: normal;
+    text-align: center;
+    color: rgb(105, 190, 40);
+    text-shadow: -2px 2px 0 rgb(165, 172, 175);
 }
-
-.navbar li:hover ul {
-    display: block;
+h2 {
+    font-family: 'Seahawk text1';
+    font-size: 60px;
+    font-style: normal;
+    text-align: center;
+    color:rgb(105, 190, 40);
+}
+h3 {
+    font-family: 'Seahawk text1';
+    font-size: 100px;
+    font-style: normal;
+    text-align: center;
+    color:rgb(165, 172, 175);
+    -webkit-text-stroke: 1.5px  rgb(105, 190, 40);
+}
+.body {
+    font-family: 'KdamproRegular';
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    color:rgb(105, 190, 40);
+    text-shadow: -1px 1px 0 rgb(165, 172, 175);
+    background-color: rgb(0, 34, 68);
+    border-width: 12px;
+    box-sizing: border-box;
+    border-style: inset;
+    border-color: rgb(105, 190, 40);
+    padding: 1em;
+    width: 75%;
+    margin: auto;
+}
+.body1 {
+    font-family: 'KdamproRegular';
+    font-size: 20px;
+    font-style: normal;
+    text-align: center;
+    color:rgb(105, 190, 40);
+    text-shadow: -1px 1px 0 rgb(165, 172, 175);
+    background-color: rgb(0, 34, 68);
+    border-width: 12px;
+    box-sizing:content-box;
+    border-style: inset;
+    border-color: rgb(105, 190, 40);
+    padding: 1em;
+    height: 212px;
+    width: 75%;
+    margin: auto;
+    overflow: scroll;
 }
