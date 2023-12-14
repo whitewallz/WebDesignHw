@@ -1,0 +1,15 @@
+@font-face
+{
+    font-family: "Block";
+    src: url("../fonts/CollegeBlock20-K5ql.ttf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: "Slabo";
+    src: url("../fonts/Slabo27px-Regular.ttf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
